@@ -1,0 +1,140 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="/">Yantra</a>
+        </div>
+        <div class="items">
+            <ul>
+                <li><a href="/index.html" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="shop">
+            <a href="/cart.html"><i class="bx bx-cart"></i></a>
+        </div>
+    </div>
+
+    <section id="cart">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i class='bx bx-x-circle'></i></td>
+                    <td><img src="/images/products/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut Shirt</td>
+                    <td>$78</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$78</td>
+                </tr>
+                <tr>
+                    <td><i class='bx bx-x-circle'></i></td>
+                    <td><img src="/images/products/f2.jpg" alt=""></td>
+                    <td>Cartoon Astronaut Shirt</td>
+                    <td>$78</td>
+                    <td><input type="number" value="4"></td>
+                    <td>$78</td>
+                </tr>
+                <tr>
+                    <td><i class='bx bx-x-circle'></i></td>
+                    <td><img src="/images/products/f3.jpg" alt=""></td>
+                    <td>Cartoon Astronaut Shirt</td>
+                    <td>$78</td>
+                    <td><input type="number" value="2 "></td>
+                    <td>$78</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cartAdd">
+        <div class="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter coupon code">
+                <button>Apply</button>
+            </div>
+        </div>
+        <div class="totalValue">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$ 335</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Total</strong>
+                    </td>
+                    <td>
+                        <str>$335</str>
+                    </td>
+                </tr>
+            </table>
+            <button>Checkout</button>
+        </div>
+    </section>
+
+    <section id="newsletter">
+        <div class="news-left">
+            <h2>Sign Up for Newsletter</h2>
+            <p>Get email updates about our special deals</p>
+        </div>
+        <div class="news-right">
+            <input type="text" placeholder="Your email address">
+            <button>SignUp</button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h3>Contact</h3>
+        <div class="con-details">
+            <h4>Address:</h4>
+            <p>SRM University, Chennai</p>
+        </div>
+        <div class="con-details">
+            <h4>Phone:</h4>
+            <p>9494430527</p>
+        </div>
+        <div class="con-details">
+            <h4>Hours:</h4>
+            <p>9am - 5pm, Mon-Fri</p>
+        </div>
+    </section>
+
+    <footer>
+        Made by Abhiram &copy
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
